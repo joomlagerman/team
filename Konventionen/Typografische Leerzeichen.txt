@@ -1,0 +1,12 @@
+In der deutschen Sprache gibt es die Notwendigkeit schmale Leerzeichen zu setzten.
+Dies kommt oft bei Abkürzungen, wie bei „zum Beispiel“, „in der Regel“, etc. vor.
+
+Hier sind keine Leerzeichen definitiv falsch (falsch: z.B.)!
+Aber ein normales Leerzeichen ist zu lanng (auch falsch: z. B.)!
+
+Richtig ist hier nur ein schmales, geschütztes Leerzeichen, dass man in HTML so erzeugt:
+&#8239;
+
+Beispiele (korrekt):
+- z.&#8239;B.
+- i.&#8239;d.&#8239;R.

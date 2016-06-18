@@ -1,0 +1,26 @@
+Vorgaben für Anführungszeichen bei J!German
+--------------------------------------------
+
+Anführungszeichen, die nicht Bestandteil eines Links oder vergleichbarer fester
+Vorgaben sind, in denen eine HTML-konforme Schreibweise zu Fehlern führt, werden
+nur in der HTML-konformen Schreibweise geschrieben, um Fehler in Tooltipps etc.
+zu umgehen.
+
+Nachfolgend die zwei wichtigsten Schreibweisen:
+
+Anführungszeichen unten („): &bdquo;
+Anführungszeichen oben (”): &ldquo;
+
+
+--------------------------------------------------------------------------------
+Wenn die oben genannte HTML-konforme Schreibweise NICHT möglich ist, dann:
+--------------------------------------------------------------------------------
+
+Unter Windows können diese „typografischen” Anführungszeichen mit folgender 
+Tastenkombination erzeugt werden:
+
+Anführungszeichen unten („): ALT + 0132
+Anführungszeichen oben (”): ALT + 0147
+
+Wichtig: Die Zahlen müssen über den Nummernblock eingeben werden!
+(Laptopnutzer ohne Nummernblock müssen sich die Zeichen einfach rauskopieren)
