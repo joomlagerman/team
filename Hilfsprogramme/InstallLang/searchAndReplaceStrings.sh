@@ -30,7 +30,7 @@ function _createInstallLangFiles()
 
 LANG_TAG="de-CH"
 _createInstallLangFiles "${LANG_TAG}"
-_renameStringInFile "${WORK_PATH}/${LANG_TAG}/${LANG_TAG}.xml" "Germany" "Swiss"
+_renameStringInFile "${WORK_PATH}/${LANG_TAG}/${LANG_TAG}.xml" "Germany" "Switzerland"
 _renameStringInFile "${WORK_PATH}/${LANG_TAG}/${LANG_TAG}.xml" "Deutschland" "Schweiz"
 _renameStringInFile "${WORK_PATH}/${LANG_TAG}/${LANG_TAG}.ini" "Deutschland" "Schweiz"
 _renameStringInFile "${WORK_PATH}/${LANG_TAG}/${LANG_TAG}.xml" "de-DE" "${LANG_TAG}"
