@@ -22,5 +22,13 @@ Tastenkombination erzeugt werden:
 Anführungszeichen unten („): ALT + 0132
 Anführungszeichen oben (”): ALT + 0147
 
+
+Unter Mac OS können diese „typografischen” Anführungszeichen mit folgender
+Tastenkombination erzeugt werden:
+
+Anführungszeichen unten („): Alt + Shift + W
+Anführungszeichen oben (”): Alt + 2
+
+
 Wichtig: Die Zahlen müssen über den Nummernblock eingeben werden!
 (Laptopnutzer ohne Nummernblock müssen sich die Zeichen einfach rauskopieren)
