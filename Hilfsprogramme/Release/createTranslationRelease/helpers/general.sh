@@ -153,14 +153,3 @@ function _createAndMoveArchives()
     popd  > '/dev/null'
     echo 'OK!'
 }
-
-function syncToSourceForge()
-{
-    mkdir "${EXPORT_DIR}/German Full Packages" "${EXPORT_DIR}/Joomla! Installer Packages"
-    mv "${EXPORT_DIR}/Joomla_"* "${EXPORT_DIR}/German Full Packages"
-    mv "${EXPORT_DIR}/"*"_joomla_lang"* "${EXPORT_DIR}/Joomla! Installer Packages"
-
-    MAIN_VERSION=$(echo "${TRANSLATION_VERSION}" | cut -d "." -f1,2)
-
-    rsync -avhz --progress -e ssh "${EXPORT_DIR}/" USERNAME@frs.sourceforge.net:"/home/frs/project/PROJECTNAME/Translations/Core/Joomla\!\ "${MAIN_VERSION}"/Joomla\!\ "${TRANSLATION_VERSION}"/"
-}
