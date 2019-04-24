@@ -41,7 +41,7 @@ function loadGit()
 
     echo -e "- Lösche .git-Dateien... \c"
     find "${GIT_DIR}" -type d -name '.git' | xargs rm -rf
-    rm -f "${GIT_DIR}/.gitattributes" "${GIT_DIR}/README.md" "${GIT_DIR}/.gitignore"
+    rm -f "${GIT_DIR}/.gitattributes" "${GIT_DIR}/.gitignore" "${GIT_DIR}/CODE_OF_CONDUCT.md" "${GIT_DIR}/README.md" "${GIT_DIR}/LICENCE"
     echo -e "OK!\n"
 }
 
