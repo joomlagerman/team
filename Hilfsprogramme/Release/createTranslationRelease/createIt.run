@@ -57,5 +57,3 @@ createDeAtTranslationPackages
 createDeLiTranslationPackages
 # de-LU
 createDeLuTranslationPackages
-
-#syncToSourceForge
