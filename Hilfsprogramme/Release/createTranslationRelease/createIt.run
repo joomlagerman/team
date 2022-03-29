@@ -31,7 +31,7 @@ TMP_DIR="${ABSOLUTE_PATH}/temp"
 GIT_DIR="${TMP_DIR}/gitCheckout"
 
 # Some URLs
-GIT='git://github.com/joomlagerman/joomla.git'
+GIT='https://github.com/joomlagerman/joomla.git'
 
 
 # First we import the "framework"
